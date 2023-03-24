@@ -10,10 +10,10 @@ const Card = ({ title, logo, link, content, category, tags }) => {
           <img className="w-14 h-14 xs:w-20 xs:h-20" src={logo} alt="logo" />
           <p className="font-mono font-bold text-xl xs:text-2xl ">{title}</p>
         </div>
-        <p className="text-justify xs:text-center text-xs md:text-sm">
+        <div className="text-justify xs:text-center text-xs md:text-sm">
         <TruncatedText text={content} limit={70}/>
           {/* {content} */}
-        </p>
+        </div>
         <div className="xs:flex text-xs md:text-sm gap-2 my-4 content-center justify-center items-center">
           {tags.map((items, i) => {
             return (
