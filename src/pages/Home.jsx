@@ -21,7 +21,7 @@ const Home = () => {
       <div>
         <div className="flex justify-center items-center content-center border-transparent	">
           <input
-            className="w-2/3 border border-text rounded-full px-6 py-2 focus:border-primary focus:outline-none"
+            className="w-full sm:w-2/3 border border-text rounded-full px-6 py-2 focus:border-primary focus:outline-none"
             type="text"
             placeholder="Search Your Favourite AI Tool..."
             value={query}
